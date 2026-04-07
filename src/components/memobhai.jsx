@@ -1,8 +1,8 @@
 import React, { useContext, useMemo, useState } from "react";
-import { MyAppContext } from "../context/appcontext";
+// import { MyAppContext } from "../context/appcontext";
 
 const Memobhai = () => {
-  const { name1, age } = useContext(MyAppContext);
+  // const { name1, age } = useContext(MyAppContext);
   const [count, setCount] = useState(0);
   const [value, setValue] = useState(0);
   const calculaltions = useMemo(() => {
@@ -32,8 +32,8 @@ const Memobhai = () => {
         increment value
       </button>
       <p>{value}</p>
-      <p>{name1}</p>
-      <p>{age}</p>
+      {/* <p>{name1}</p>
+      <p>{age}</p> */}
     </div>
   );
 };

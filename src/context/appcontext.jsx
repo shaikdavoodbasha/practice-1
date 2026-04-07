@@ -1,15 +1,15 @@
 import { createContext } from "react";
 
-export const MyAppContext = createContext();
+export const MainContext = createContext();
 
-export const RealContext = (props) => {
+export const AppContext = (props) =>{
   const value = {
-    name1: "Salar",
-    age: "34",
-  };
+    name1 :"Devaratha Raisar"
+  }
   return (
-    <MyAppContext.Provider value={value}>
+    <MainContext.Provider value={value} >
       {props.children}
-    </MyAppContext.Provider>
-  );
-};
+    </MainContext.Provider>
+  )
+
+}
