@@ -12,12 +12,13 @@ const Form1 = ({children}) => {
 
     // }
 
+    
     const[formData,setFormData] = useState({
         fname:"",
         femail:"",
         fpassword:""
     })
-    
+
     const [fullData,setFullData]=useState([])
     const handleform = (e)=>{
         const {name,value} = e.target;
