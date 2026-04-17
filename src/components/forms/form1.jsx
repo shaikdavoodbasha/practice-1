@@ -56,7 +56,6 @@ const Form1 = ({children}) => {
                 </label>
                 <input type="text" value={formData.fpassword} name='fpassword' onChange={handleform}  className='border'/>
             </div>
-            
             <button className='px-2 py-1 bg-red-600 text-white'>Submit</button>
         </form>
       
