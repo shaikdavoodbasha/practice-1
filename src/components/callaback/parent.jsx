@@ -7,7 +7,6 @@ const Parent = () => {
     const [childData,setChildData] = useState('')
     const fromChild = (childData)=>{
         setChildData(childData)
-
     }
   return (
     <div>
