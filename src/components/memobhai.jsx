@@ -22,7 +22,7 @@ const Memobhai = () => {
         className="px-2 py-1.5 border"
         onClick={() => setCount(count + 1)}
       >
-        {/* increment */}/
+        increment
       </button>
       {/* <h1>count {count}</h1> */}
       <button
