@@ -24,7 +24,7 @@ const Memobhai = () => {
       >
         increment
       </button>
-      <h1>count {count}</h1>
+      {/* <h1>count {count}</h1> */}
       <button
         className="px-2 py-1.5 border"
         onClick={() => setValue(value + 1)}
