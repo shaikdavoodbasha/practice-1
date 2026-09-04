@@ -2,7 +2,7 @@ import React, { useContext, useMemo, useState } from "react";
 // import { MyAppContext } from "../context/appcontext";
 
 const Memobhai = () => {
-  // const { name1, age } = useContext(MyAppContext)
+  // const { name1, age } = useContext(MyAppContext)kilo
   const [count, setCount] = useState(0);
   const [value, setValue] = useState(0);
   const calculaltions = useMemo(() => {
