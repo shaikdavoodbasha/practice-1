@@ -31,8 +31,8 @@ const One1 = () => {
       {data.map((item, index) => {
         return (
           <div key={index}>
-            {/* <h1 className="text-blue-800">{item.body}</h1> */}
-            <h1 className="text-yellow-300">{item.title}</h1>
+            <h1 className="text-blue-800">{item.body}</h1>
+            {/* <h1 className="text-yellow-300">{item.title}</h1> */}
           </div>
         );
       })}
