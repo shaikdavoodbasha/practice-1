@@ -32,7 +32,7 @@ const Memobhai = () => {
         increment value
       </button>
       <p>{value}</p>
-      {/* <p>{name1}</p> */}
+      <p>{name1}</p>
       <p>{age}</p>
     </div>
   );
